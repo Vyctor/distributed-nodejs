@@ -1,0 +1,7 @@
+### GET With Gzip
+GET http://localhost:1337
+Accept-Encoding: gzip
+
+### GET Without Gzip
+GET http://localhost:1337
+Accept-Encoding: identity
